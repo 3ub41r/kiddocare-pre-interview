@@ -8,7 +8,6 @@ function authenticate($username, $password)
         while (($line = fgets($handle)) !== false) {
             $credentials = explode('|', $line);            
             if (trim($credentials[0]) == trim($username) && trim($credentials[1]) == trim($password)) {
-                // Set session
                 $_SESSION['user'] = $username;
                 return true;
             }
