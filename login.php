@@ -28,17 +28,23 @@ if (array_key_exists('submit', $_POST)) {
                     Login failed. Please try again.
                 </div>
                 <?php } ?>
-                <form action="login.php" method="POST">
-                    <div class="form-group">
-                        <label for="username">Username</label>
-                        <input type="text" name="username" class="form-control" id="username">
+                
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Login with your username and password.</h5>
+                        <form action="login.php" method="POST">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" name="username" class="form-control" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" class="form-control" id="password">
+                            </div>
+                            <button name="submit" type="submit" class="btn btn-primary">Login</button>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" class="form-control" id="password">
-                    </div>
-                    <button name="submit" type="submit" class="btn btn-primary">Login</button>
-                </form>
+                </div>
             </div>
         </div>
     </div>

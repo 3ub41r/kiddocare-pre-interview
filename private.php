@@ -14,7 +14,13 @@ requiresAuthentication();
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto text-center my-5">
-                <h1 class="my-3">This is a private section.</h1>
+                <h1 class="my-3">Thanks for considering :)</h1>
+
+                <div class="text-center my-3">
+                    <img src="https://www.commitstrip.com/wp-content/uploads/2015/05/Strip-Breaz-650-finalenglish.jpg" alt="Coder Interview" class="img-fluid">
+                    <a href="https://www.commitstrip.com/en/2015/05/20/coder-interview/?">CommitStrip</a>
+                </div>
+
                 <a href="logout.php" class="btn btn-lg shadow btn-primary">Get out of here!</a>
             </div>
         </div>
