@@ -7,7 +7,7 @@ This is a project written for an interview.
 Clone this project:
 
 ```
-git clone 
+git clone https://github.com/3ub41r/kiddocare-pre-interview.git
 ```
 
 If you don't want to mess with PHP installations. Run it with docker:
