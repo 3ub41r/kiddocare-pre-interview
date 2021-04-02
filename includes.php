@@ -26,7 +26,7 @@ function redirect($url, $statusCode = 303)
 
 function logout()
 {
-    session_start(); session_destroy();
+    session_destroy();
     redirect('login.php');
 }
 
@@ -36,4 +36,3 @@ function requiresAuthentication()
         logout();
     }
 }
-
