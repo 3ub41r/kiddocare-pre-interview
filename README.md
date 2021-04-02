@@ -10,7 +10,7 @@ Clone this project:
 git clone https://github.com/3ub41r/kiddocare-pre-interview.git
 ```
 
-If you don't want to mess with PHP installations. Run it with docker:
+If you don't want to mess with PHP installations, run it with Docker:
 
 ```
 docker-compose up -d
