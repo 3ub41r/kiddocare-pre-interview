@@ -22,4 +22,4 @@ If you already have PHP installed, you can just server the current directory wit
 php -S localhost:80
 ```
 
-Then go to `http://localhost/login.php`.
+Then go to <http://localhost/login.php>.
