@@ -8,9 +8,12 @@ Clone this project:
 
 ```
 git clone https://github.com/3ub41r/kiddocare-pre-interview.git
+
+# cd into the directory
+cd kiddocare-pre-interview
 ```
 
-If you don't want to mess with PHP installations, run it with Docker:
+If you don't want to mess with PHP installations, you can run it with Docker:
 
 ```
 docker-compose up -d
